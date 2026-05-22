@@ -49,6 +49,7 @@ uncrackable3/
 │   └── arm64-v8a/libfoo.so
 └── res/values/strings.xml
 ```
+<img width="1204" height="287" alt="Screenshot 2026-05-18 115936" src="https://github.com/user-attachments/assets/1204a867-06b7-4fa2-9eae-faf4247facf2" />
 
 ---
 
@@ -90,6 +91,8 @@ goto :cond_2
 ```
 
 Ces deux `goto` font que `tampered` reste à 0 quelles que soient les modifications apportées aux binaires.
+
+<img width="1839" height="1002" alt="Screenshot 2026-05-18 115033" src="https://github.com/user-attachments/assets/a9286a96-3569-466b-acc4-3b22b83acece" />
 
 ---
 
@@ -245,11 +248,13 @@ adb install UnCrackable-Level3-signed.apk
 
 ---
 
+<img width="297" height="575" alt="Screenshot 2026-05-22 171858" src="https://github.com/user-attachments/assets/f3c9b2c9-9618-4ad3-ad1d-ec388a7af656" />
+
 ## Résultat final
 
 ```
 Input  : making owasp great again
-Résultat : ✅  Success! — This is the correct secret.
+Résultat :   Success! — This is the correct secret.
 ```
 
 ---
